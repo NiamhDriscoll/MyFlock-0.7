@@ -1,4 +1,5 @@
-# License for MyFlock 0.6
+# License for MyFlock 0.7
+Created by Niamh Industries
 
 Welcome to MyFlock. By accessing our website, you agree to these terms. 
 
