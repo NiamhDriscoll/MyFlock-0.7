@@ -9,5 +9,8 @@ def about():
     return render_template("about.html")
 
 if __name__ == '__main__':
+  try:
     app.run(debug=True)
-    print("Flask app served")
+    print("Flask app started")
+  except Exception as e:
+    print(f"An error occurred: {e}")
