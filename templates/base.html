@@ -9,14 +9,18 @@
 <body>
     <section class="bar">
         <a href="index.html" class="button2">Home</a>
-        <a href="signup.html" class="button2">Signup</a>
-        <a onclick="" class="button2">About</a>
+        <a onclick="show_sign_up_box" class="button2">Signup</a>
+        <a href="{{ url_for('about') }}" class="button2" >About</a>
         <a href="signin.html" class="button2">Sign in</a>
         <input type="text" id="Search">
       </section>
       {%block content%}
       {%endblock%}
-
+    <br />
+    <br />
+    <br />
+    <div class="sign_up_box"></div>
+    
       
       <script scr="{{ url_for('static', filename='js/index.js')}}"></script>
 </body>

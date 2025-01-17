@@ -58,3 +58,10 @@ html {
     font-family: 'Allura-Regular';
     text-align: center;
   }
+  .sign_up_box{
+      width: 600px;
+      height: 600px;
+      background: black;
+      margin: 0 auto;
+      display: none;
+  }
